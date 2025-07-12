@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "us-marketing-seo",
+    "title": "US Marketing & SEO Pack",
+    "tease": "20 prompts for copy & ads",
+    "price": 17,
+    "currency": "USD",
+    "cta": "https://checkout.lemonsqueezy.com/buy/us-marketing-seo",
+    "cover": "/covers/us-marketing.jpg"
+  },
+  {
+    "slug": "swiss-cleantech-finance",
+    "title": "Swiss Cleantech & Finance Pack",
+    "tease": "ESG + banking workflows",
+    "price": 19,
+    "currency": "CHF",
+    "cta": "https://checkout.lemonsqueezy.com/buy/swiss-cleantech-finance",
+    "cover": "/covers/swiss-cleantech.jpg"
+  },
+  {
+    "slug": "cn-ecom-manufacturing",
+    "title": "Chinese E-Commerce & Mfg Pack",
+    "tease": "Taobao-ready prompts (EN/ZH)",
+    "price": 15,
+    "currency": "USD",
+    "cta": "https://checkout.lemonsqueezy.com/buy/cn-ecom-manufacturing",
+    "cover": "/covers/cn-ecom.jpg"
+  },
+  {
+    "slug": "id-agri-smallbiz",
+    "title": "Indonesian Agri & SMB Pack",
+    "tease": "Yield & marketing prompts (ID)",
+    "price": 13,
+    "currency": "USD",
+    "cta": "https://checkout.lemonsqueezy.com/buy/id-agri-smallbiz",
+    "cover": "/covers/id-agri.jpg"
+  }
+]

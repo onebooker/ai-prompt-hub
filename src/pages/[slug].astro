@@ -1,0 +1,17 @@
+---
+import Base from "../layouts/BaseLayout.astro";
+import packs from "../data/packs.json";
+const { slug } = Astro.params;
+const pack = packs.find(p => p.slug === slug);
+if (!pack) {
+  throw new Error(`Pack not found: ${slug}`);
+}
+---
+<Base title={`${pack.title} – AI Prompt Hub`}>
+  <section class="container mx-auto px-4 md:px-8 py-24 max-w-3xl">
+    <h1 class="text-4xl font-bold mb-4">{pack.title}</h1>
+    <img src={pack.cover} alt={pack.title} class="w-full h-60 object-cover rounded-lg mb-6" />
+    <p class="mb-6">{pack.tease} — includes 25-30 prompts, quick-start guide, and video demo.</p>
+    <a href={pack.cta} class="bg-secondary hover:bg-teal-600 text-white px-6 py-3 rounded-lg text-lg transition inline-block">Buy for {pack.currency} {pack.price}</a>
+  </section>
+</Base>

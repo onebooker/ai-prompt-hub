@@ -1,0 +1,29 @@
+---
+const { title = 'AI Prompt Hub', description = 'Niche AI prompt libraries' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" href="/logo.svg" />
+</head>
+<body class="bg-base text-gray-800 font-sans">
+  <header class="bg-primary text-white">
+    <nav class="container mx-auto flex items-center justify-between py-4 px-4 md:px-6">
+      <a href="/" class="flex items-center gap-2 font-semibold"><img src="/logo.svg" class="w-6 h-6" alt="logo"/> AI Prompt Hub</a>
+      <ul class="flex gap-4 text-sm md:text-base">
+        <li><a href="/" class="hover:underline">Home</a></li>
+        <li><a href="/about" class="hover:underline">About</a></li>
+        <li><a href="#newsletter" class="hover:underline">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="min-h-[70vh]">{Astro.children}</main>
+  <footer class="bg-primary text-white text-center py-6 text-sm">
+    © 2025 AI Prompt Hub — Made with Astro & Tailwind
+  </footer>
+</body>
+</html>
